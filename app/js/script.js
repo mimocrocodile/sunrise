@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                                     if (finish - 1 == h) {
                                         let finishDiv = document.createElement("div"), popupTriangle = document.createElement("div"),
                                         popupTriangleImg = document.createElement("img"), popupImg = document.createElement("img")
-                                        finishDiv.className = "finish", popupImg.src = "/app/icns/adv-info.svg", popupImg.className = "calendar__img"
+                                        finishDiv.className = "finish", popupImg.src = "./app/icns/adv-info.svg", popupImg.className = "calendar__img"
                                         finishDiv.style.backgroundColor = colorBookingType
                                         let popupWindow = document.createElement("div")
                                         popupWindow.className = "calendar__popup not-seeU"
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                                             </div>
                                         `
                                         popupTriangle.className = "calendar__popup-triangle"
-                                        popupTriangleImg.src = "/app/img/triangle.png"
+                                        popupTriangleImg.src = "./app/img/triangle.png"
                                         popupTriangle.append(popupTriangleImg)
                                         popupWindow.append(popupTriangle)
                                         calendarMain.children[k].children[h].style.borderLeft = "none"

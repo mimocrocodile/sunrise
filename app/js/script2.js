@@ -95,12 +95,12 @@ customSelectTitle.forEach(el=>{
     el.addEventListener("click", ()=>{
         if(customSelectType == el.getAttribute("data-title")){
             // hideAll()
-            el.parentElement.children[1].classList.contains("not-see") ? (el.parentElement.children[1].classList.remove("not-see"), el.parentElement.style.position = "absolute", el.children[0].src = "../app/icns/arrow-up.svg") : (el.parentElement.children[1].classList.add("not-see"), el.parentElement.style.position = "static", el.children[0].src = "../app/icns/arrow-down.svg")
+            el.parentElement.children[1].classList.contains("not-see") ? (el.parentElement.children[1].classList.remove("not-see"), el.parentElement.style.position = "absolute", el.children[0].src = "./app/icns/arrow-up.svg") : (el.parentElement.children[1].classList.add("not-see"), el.parentElement.style.position = "static", el.children[0].src = "./app/icns/arrow-down.svg")
         }
         if(customSelectType != el.getAttribute("data-title")){
             customSelectType = el.getAttribute("data-title")
             hideAll()
-            el.parentElement.children[1].classList.contains("not-see") ? (el.parentElement.children[1].classList.remove("not-see"), el.parentElement.style.position = "absolute", el.children[0].src = "../app/icns/arrow-up.svg") : (el.parentElement.children[1].classList.add("not-see"), el.parentElement.style.position = "static", el.children[0].src = "../app/icns/arrow-down.svg")
+            el.parentElement.children[1].classList.contains("not-see") ? (el.parentElement.children[1].classList.remove("not-see"), el.parentElement.style.position = "absolute", el.children[0].src = "./app/icns/arrow-up.svg") : (el.parentElement.children[1].classList.add("not-see"), el.parentElement.style.position = "static", el.children[0].src = "./app/icns/arrow-down.svg")
         }
 
     })
@@ -119,7 +119,7 @@ customSelectList.forEach((el, index)=>{
         el.children[i].addEventListener("click", ()=>{
             customSelectTitle[index].innerHTML = el.children[i].innerHTML
             let imgTitle = document.createElement("img")
-            imgTitle.src = "../app/icns/arrow-down.svg"
+            imgTitle.src = "./app/icns/arrow-down.svg"
             customSelectTitle[index].append(imgTitle)
             hideAll()
         })
