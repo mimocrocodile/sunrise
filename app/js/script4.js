@@ -5,7 +5,7 @@ let allData = []
 // menuRate.forEach(item=>{
 //     item.addEventListener("click", ()=>{
 //         console.log(menuRateList.classList)
-//         menuRateList.classList.contains("menu__notsee")  ? (menuRateList.classList.remove("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-up.svg') no-repeat 100% 60%") : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-down.svg') no-repeat 100% 60%")
+//         menuRateList.classList.contains("menu__notsee")  ? (menuRateList.classList.remove("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-up.svg') no-repeat 100% 60%") : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-down.svg') no-repeat 100% 60%")
 
 //         main.classList.contains("wide") ? null : ( menuMover())
 //     })
@@ -285,7 +285,7 @@ function itemRateWatcher(){
                 el.stopImmediatePropagation()
                 console.log(element.querySelector(".rate__stock-main"))
                 let rateContainer = element.querySelector(".rate__stock-main")
-                rateContainer.style.display == "none" ?  (rateContainer.style.display = "block", element.children[0].children[0].children[0].style.background = "url('/app/icns/arrow-up.svg') no-repeat left") : (rateContainer.style.display = "none", element.children[0].children[0].children[0].style.background = "url('/app/icns/arrow-down.svg') no-repeat left")
+                rateContainer.style.display == "none" ?  (rateContainer.style.display = "block", element.children[0].children[0].children[0].style.background = "url('./app/icns/arrow-up.svg') no-repeat left") : (rateContainer.style.display = "none", element.children[0].children[0].children[0].style.background = "url('./app/icns/arrow-down.svg') no-repeat left")
             }
             let allInputs = element.getElementsByTagName('input')
             let saveBtn = element.getElementsByClassName("rate__stock-savebtn"), saveCondition = 0

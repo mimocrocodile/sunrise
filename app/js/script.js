@@ -498,7 +498,7 @@ let menuRateArrow = document.querySelector(".menu__link-arrow")
 menuRate.forEach(item=>{
     item.addEventListener("click", ()=>{
         console.log(menuRateList.classList)
-        menuRateList.classList.contains("menu__notsee")  ? ( menuRateList.classList.remove("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-up.svg') no-repeat 100% 60%") : ( menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-down.svg') no-repeat 100% 60%")
+        menuRateList.classList.contains("menu__notsee")  ? ( menuRateList.classList.remove("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-up.svg') no-repeat 100% 60%") : ( menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-down.svg') no-repeat 100% 60%")
         main.classList.contains("wide") ? null : ( menuMover())
     })
 })
@@ -517,7 +517,7 @@ function menuMover(){
             sidebar.style.setProperty("width", "110px")
             scrollContainer.style.setProperty("left", "409px")
             arrow.style.setProperty("left", "65px")
-            menuRateList.classList.contains("menu__notsee")  ? null : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-down.svg') no-repeat 100% 60%")
+            menuRateList.classList.contains("menu__notsee")  ? null : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-down.svg') no-repeat 100% 60%")
             main.classList.remove("wide")
             changeTableSize()
         }
@@ -541,7 +541,7 @@ function menuMover(){
             sidebar.style.setProperty("width", "110px")
             scrollContainer.style.setProperty("left", "361px")
             arrow.style.setProperty("left", "65px")
-            menuRateList.classList.contains("menu__notsee")  ? null : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('/app/icns/arrow-down.svg') no-repeat 100% 60%")
+            menuRateList.classList.contains("menu__notsee")  ? null : (menuRateList.classList.add("menu__notsee"), menuRateArrow.style.background = "url('./app/icns/arrow-down.svg') no-repeat 100% 60%")
             main.classList.remove("wide")
             changeTableSize()
         }
