@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@400;500;700&family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+    </div>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__logo-img" src="/app/icns/logo-textless.svg" alt="Логотип Sunrise">
+                <img class="header__logo-img not-seeU" id="fulllogo" src="/app/img/logo.png" alt="Логотип Sunrise">
+            </div>
+            <div class="header__main">
+                <div class="header__title">
+                    <p>Календарь бронирования</p>
+                </div>
+                <div class="profile">
+                    <div class="profile__message">
+                        <div class="profile__number">16</div>
+                    </div>
+                    <div class="profile__img"><img src="/app/img/profile-img.png" alt="Картинка профиля"></div>
+                    <div class="profile__name">
+                        <p>Меруерт Болатова</p>
+                    </div>
+                    <div class="logout"><img src="/app/icns/logout.svg" alt="Выход"></div>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <div class="menu__holder">
+                <ol class="menu__list not-seeU">
+                    <li><a class="menu__link" href="/"><button class="menu__btn"><img src="/app/icns/calendar.svg"
+                                    alt=""></button>Календарь</a></li>
+                    <li><a class="menu__link" href="booking.html"><button class="menu__btn secondbtn"><img
+                                    src="/app/icns/booking.svg" alt=""></button>Создать бронь</a></li>
+                    <li><a class="menu__link" href="list.html"><button class="menu__btn thirdbtn"><img src="/app/icns/list.svg"
+                                    alt=""></button>Список броней</a></li>
+                    <li class="menu__rate  "><p class="menu__link menu__link-arrow" ><button class="menu__btn fourthbtn"><img src="/app/icns/rate.svg"
+                                    alt=""></button>Тарифы</p>
+                        <div class="menu__rate-item menu__notsee">
+                            <a href="houses.html">Sunrise Песчаный</a>
+                            <a href="houses.html">Sunrise Скалистый</a>
+                            <a href="houses.html">Sunrise Рахманы</a>
+                            <a href="houses.html">Sunrise Бухта</a>
+                            <a href="houses.html">Sunrise ГЭС</a>
+                        </div>
+
+                    </li>
+                </ol>
+                <ol class="menu__list seeBlock">
+                    <li><a class="menu__link" href="/"><button class="menu__btn"><img src="/app/icns/calendar.svg"
+                                    alt=""></button></a></li>
+                    <li><a class="menu__link" href="booking.html"><button class="menu__btn secondbtn"><img
+                                    src="/app/icns/booking.svg" alt=""></button></a></li>
+                    <li><a class="menu__link" href="list.html"><button class="menu__btn thirdbtn"><img src="/app/icns/list.svg"
+                                    alt=""></button></a></li>
+                    <li class="menu__rate"><p class="menu__link " ><button class="menu__btn fourthbtn"><img src="/app/icns/rate.svg"
+                                    alt=""></button></p></li>
+                </ol>
+                <div class="arrow-reveal">
+                    <img class="arrow-img not-seeU" src="/app/icns/left-arrow.svg" alt="">
+                    <img class="arrow-img seeBlock" src="/app/icns/right-arrow.svg" alt="">
+
+                </div>
+            </div>
+            <div class=" booking__holder house__main">
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back1.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Дом №1 - Вилла</p>
+                    </div>
+                </a>
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back2.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Дом №2 - Шале</p>
+                    </div>
+                </a>
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back3.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Дом №3 - Винный</p>
+                    </div>
+                </a>
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back4.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Дом №4 - БотХаус 1</p>
+                    </div>
+                </a>
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back5.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Дом №5 - Большая Веранда</p>
+                    </div>
+                </a>
+                <a class="house__item" href="rate.html">
+                    <div class="house__item-background">
+                        <img class="house__item-img" src="/app/img/back6.png" alt="">
+                    </div>
+                    <div class="house__item-title">
+                        <p>Доп. услуги</p>
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+    </div>
+
+    <script src="/app/js/script4.js"></script>
+</body>
+
+</html>

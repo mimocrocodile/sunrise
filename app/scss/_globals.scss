@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+input, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+html, body {
+    margin:0px;
+    height:100%;
+  }
+body{
+    background-color: #F4F6FA;
+    // background-color: cornflowerblue;
+    // background-color: red;
+}
+
+
+
+
+@media (max-width: 1199px) {
+    *{
+        font-size: 9.4px;
+        line-height: 11.4px;
+    }
+    .container{
+        width: 100%;
+        padding: 0 calc(100% - (100% - 30px));
+        // background-color: red;
+
+    }
+    .sidebar{
+        // width: 165px;
+        width: 110px;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+
+    }
+    .scroll-container{
+        position: absolute;
+        overflow: scroll;
+        overflow-y: hidden;
+        top: 0;
+        display: flex;
+        padding-right: 30px;
+        // width: 1240px;
+        // width: 65%;
+        left: 360px;
+    }
+    // .scroll-container::-webkit-scrollbar {
+    //     display: none;
+    //   }
+
+    .new__container{
+        // width: 40px;
+        height: 30px;
+        // display: flex;
+
+        // align-items: center;
+        >div{
+            font-size: 8px;
+                height: 30px;
+                width: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+    }
+   .first{
+    p{
+        font-size: 9.4px;
+    }
+
+   }
+}
+
+@media (min-width: 1200px) {
+    *{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .container{
+        width: 100%;
+        padding: 0 30px 0 15px;
+        // background-color: red;
+
+    }
+    .sidebar{
+        width: 110px;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+
+    }
+    .scroll-container{
+        position: absolute;
+        overflow: scroll;
+        overflow-y: hidden;
+        // overflow-x: scroll;
+        top: 0;
+        display: flex;
+        // padding-right: 30px;
+        // width: 1240px;
+        // width: 65%;
+        left: 361px;
+    }
+    .first, .final{
+        height: 40px ;
+        width: 30px ;
+    }
+    // .scroll-container::-webkit-scrollbar {
+    //     display: none;
+    //   }
+
+    .new__container{
+        // width: 40px;
+        height: 40px;
+        display: flex;
+        // align-items: center;
+        >div{
+                height: 40px;
+                width: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .first, .final{
+                    height: 40px;
+                    width: 30px;
+                }
+        }
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+
+    .container{
+        width: 100%;
+        padding: 0 30px 0 15px;
+        // background-color: red;
+
+    }
+    .sidebar{
+        width: 110px;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+
+    }
+    .scroll-container{
+        position: absolute;
+        overflow: scroll;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        top: 0;
+        display: flex;
+        padding-right: 30px;
+        // width: 1240px;
+        // width: 65%;
+        left: 409px;
+    }
+    // .scroll-container::-webkit-scrollbar {
+    //     display: none;
+    //   }
+
+    .new__container{
+        // width: 40px;
+        height: 50px;
+        display: flex;
+        // align-items: center;
+        >div{
+                height: 50px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .final, .first{
+                    height: 50px;
+                    width: 40px;
+                }
+        }
+    }
+
+}
+@media (min-width: 1600px) {
+    *{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+.first{
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+
+}
+.final{
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.seeU{
+    display: flex;
+}
+.not-seeU{
+    display: none;
+}
+.seeBlock{
+    display: block;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
