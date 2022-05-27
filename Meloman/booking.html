@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@400;500;700&family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+    </div>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__logo-img" src="/app/icns/logo-textless.svg" alt="Логотип Sunrise">
+                <img class="header__logo-img not-seeU" id="fulllogo" src="/app/img/logo.png" alt="Логотип Sunrise">
+            </div>
+            <div class="header__main">
+                <div class="header__title">
+                    <p>Календарь бронирования</p>
+                </div>
+                <div class="profile">
+                    <div class="profile__message">
+                        <div class="profile__number">16</div>
+                    </div>
+                    <div class="profile__img"><img src="/app/img/profile-img.png" alt="Картинка профиля"></div>
+                    <div class="profile__name">
+                        <p>Меруерт Болатова</p>
+                    </div>
+                    <div class="logout"><img src="/app/icns/logout.svg" alt="Выход"></div>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <div class="menu__holder">
+                <ol class="menu__list not-seeU">
+                    <li><a class="menu__link" href="/"><button class="menu__btn"><img src="/app/icns/calendar.svg"
+                                    alt=""></button>Календарь</a></li>
+                    <li><a class="menu__link" href="booking.html"><button class="menu__btn secondbtn"><img
+                                    src="/app/icns/booking.svg" alt=""></button>Создать бронь</a></li>
+                    <li><a class="menu__link" href="list.html"><button class="menu__btn thirdbtn"><img src="/app/icns/list.svg"
+                                    alt=""></button>Список броней</a></li>
+                    <li class="menu__rate  "><p class="menu__link menu__link-arrow" ><button class="menu__btn fourthbtn"><img src="/app/icns/rate.svg"
+                                    alt=""></button>Тарифы</p>
+                        <div class="menu__rate-item menu__notsee">
+                            <a href="houses.html">Sunrise Песчаный</a>
+                            <a href="houses.html">Sunrise Скалистый</a>
+                            <a href="houses.html">Sunrise Рахманы</a>
+                            <a href="houses.html">Sunrise Бухта</a>
+                            <a href="houses.html">Sunrise ГЭС</a>
+                        </div>
+
+                    </li>
+                </ol>
+                <ol class="menu__list seeBlock">
+                    <li><a class="menu__link" href="/"><button class="menu__btn"><img src="/app/icns/calendar.svg"
+                                    alt=""></button></a></li>
+                    <li><a class="menu__link" href="booking.html"><button class="menu__btn secondbtn"><img
+                                    src="/app/icns/booking.svg" alt=""></button></a></li>
+                    <li><a class="menu__link" href="list.html"><button class="menu__btn thirdbtn"><img src="/app/icns/list.svg"
+                                    alt=""></button></a></li>
+                    <li class="menu__rate"><p class="menu__link " ><button class="menu__btn fourthbtn"><img src="/app/icns/rate.svg"
+                                    alt=""></button></p></li>
+                </ol>
+                <div class="arrow-reveal">
+                    <img class="arrow-img not-seeU" src="/app/icns/left-arrow.svg" alt="">
+                    <img class="arrow-img seeBlock" src="/app/icns/right-arrow.svg" alt="">
+
+                </div>
+            </div>
+            <div class="booking__holder">
+                <form class="booking__form" action="">
+                    <div class="booking__main">
+                        <div class="booking__head">
+                            <p class="booking__title">бронь № 25680</p>
+                            <img class="switcher" src="/app/icns/switcher.svg" alt="переключалка">
+                        </div>
+                        <div class="booking__section">
+                            <div class="booking__subsection booking__location">
+                                <p class="booking__subtitle">Размещение</p>
+                                <div class="booking__item booking__item-custom">
+                                    <input type="checkbox" class="custom-checkbox" id="">
+                                    <!-- <span class="checkmark"></span> -->
+                                    <label class="custom-label" for="">Бронировать локацию</label>
+                                </div>
+                            </div>
+                            <div class="booking__subsection booking__widesection booking__widesection-location">
+                                <div class="booking__item booking__item-select">
+                                    <p>Локации</p>
+                                    <div data-select="1" class="custom-select">
+                                        <p data-title="1" data-select="1" class="custom-select-title">Выберите локацию <img data-select="1" src="/app/icns/arrow-down.svg" alt=""></p>
+                                        <div data-select="1" class="custom-select-dropdown not-see" >
+                                            <ul data-select="1" class="custom-select-list">
+                                                <li data-select="1">Sunrise Бухта</li>
+                                                <li data-select="1">Sunrise Песчаный</li>
+                                                <li data-select="1">Sunrise Рахманы</li>
+                                                <li data-select="1">Sunrise Скалистый</li>
+                                                <li data-select="1">Sunrise ГЭС</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>Тип дома</p>
+                                    <div data-select="1" class="custom-select" >
+                                        <p data-title="2" data-select="1" class="custom-select-title">Выберите дом <img data-select="1" src="/app/icns/arrow-down.svg" alt=""></p>
+                                        <div data-select="1" class="custom-select-dropdown not-see" >
+                                            <ul data-select="1" class="custom-select-list">
+                                                <li data-select="1">Вилла</li>
+                                                <li data-select="1">Прибрежный дом</li>
+                                                <li data-select="1">Домик "Три сосны"</li>
+                                                <li data-select="1">Глэмпинг</li>
+                                                <li data-select="1">Корпус "Пионер"</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="booking__item-flexible booking__item-location" id="standart">
+                                    <div class="booking__item booking__item-date">
+                                        <label for="">Дата заезда</label>
+                                        <input class="booking__input-date"  type="date" >
+                                        <label for="">Дата выезда</label>
+                                        <input class="booking__input-date2"  type="date">
+                                    </div>
+                                    <div class="booking__item">
+                                        <label for="">Время</label>
+                                        <input type="time">
+                                        <!-- <select class="booking__time" name="" id="">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                        </select> -->
+                                        <label for="">Время</label>
+                                        <input type="time">
+                                    </div>
+                                    <div class="booking__item booking__item-number">
+                                        <label for="">Места</label>
+                                        <input type="number"  value="0">
+                                        <label for="">Банкетные</label>
+                                        <input type="number" value="0">
+                                    </div>
+                                    <div class="booking__item booking__item-number">
+                                        <label for="">Доп места</label>
+                                        <input type="number" value="0">
+                                        <label for="">Дети до 10 лет</label>
+                                        <input type="number" value="0">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="booking__subsection">
+                                <div class="booking__item booking__item-comment">
+                                    <label for="">Комментарий:</label>
+                                    <input type="text" placeholder="+3 комплекта белья">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__section" id="pay">
+                            <div class="booking__subsection">
+                                <p class="booking__subtitle">Контакты</p>
+                            </div>
+                            <div class="booking__subsection">
+                                <div class="booking__item booking__item-radio">
+                                    <input type="radio" name="booking-radio" class="custom-radio" id="bradio" checked> <label for="bradio">Физические лица</label>
+                                </div>
+                                <div class="booking__item booking__item-radio">
+                                    <input type="radio" name="booking-radio" class="custom-radio"  id="bradio1"> <label for="bradio1">Юридические лица</label>
+                                </div>
+
+                            </div>
+                            <div class="booking__subsection booking__subsection-bron"   >
+                                <div class="booking__item booking__item-bron" >
+                                    <div>
+                                        <label for="">Бронирующий</label>
+                                        <div>
+                                            <input type="text" placeholder="ФИО">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="">Контакты</label>
+                                        </div>
+                                        <div >
+                                            <img  src="/app/icns/telephone-booking.svg" alt="инпут">
+                                            <input type="number" placeholder="+7 (  )">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <img src="/app/icns/email-booking.svg" alt="инпут">
+                                        <input type="number" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="booking__item booking__item-bron" >
+                                    <div>
+                                        <label for="">Плательщик</label>
+                                        <div>
+                                            <input type="text" placeholder="ФИО">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="">Контакты</label>
+                                        </div>
+                                        <div >
+                                            <img  src="/app/icns/telephone-booking.svg" alt="инпут">
+                                            <input type="number" placeholder="+7 (  )">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <img src="/app/icns/email-booking.svg" alt="инпут">
+                                        <input type="number" placeholder="Email">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="booking__section booking__features" id="pay">
+                            <div>
+                                <p class="booking__subtitle">Дополнительные услуги</p>
+                                <div class="booking__subsection">
+                                    <div class="booking__item booking__item-features">
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Корт</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Спорт инвентарь</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Квадроциклы</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Водные прогулки</label></div>
+                                    </div>
+                                    <div class="booking__item booking__item-features">
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Баня</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Массаж</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Веники</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Полотенца</label></div>
+                                    </div>
+                                    <div class="booking__item booking__item-features">
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Мангал</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Уголь</label></div>
+                                        <div><input type="checkbox" class="custom-checkbox" name="" id=""> <label class="custom-label" for="">Шампуры</label></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div>
+                                    <p class="booking__subtitle">Питание</p>
+                                <div class="booking__subsection">
+
+                                    <div class="booking__item booking__item-features">
+                                        <div><input type="checkbox" class="custom-checkbox " checked name="" id=""> <label class="custom-label custom-label-food" for="">Питание</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__section" id="pay">
+                            <p class="booking__subtitle">Оплата</p>
+                            <div class="booking__subsection booking__widesection">
+                                <div class="booking__item-flexible">
+                                    <div class="booking__item booking__item-pay">
+                                        <label for="">Проживание</label>
+                                        <input type="number" value="255 000" placeholder="255 000">
+                                    </div>
+                                    <div class="booking__item booking__item-pay">
+                                        <label for="">Питание</label>
+                                        <input class="booking__foodpay" type="number" value="50000" placeholder="50 000">
+                                    </div>
+                                    <div class="booking__item booking__item-pay">
+                                        <label for="">Доп. услуги</label>
+                                        <input class="booking__extra" type="number" value="5000" placeholder="5 000">
+                                    </div>
+                                    <div class="booking__item booking__item-pay">
+                                        <label for="">Предоплата</label>
+                                        <input type="number" value="200 000" placeholder="200 000">
+                                    </div>
+                                </div>
+                                <div class="booking__item booking__item-select" id="standart">
+                                    <p>Способы оплаты</p>
+                                    <div data-select="1" class="custom-select">
+                                        <p data-title="3" data-select="1" class="custom-select-title">Выберите локацию <img data-select="1" src="/app/icns/arrow-down.svg" alt=""></p>
+                                        <div data-select="1" class="custom-select-dropdown not-see" >
+                                            <ul data-select="1" class="custom-select-list">
+                                                <li data-select="1">Kaspi</li>
+                                                <li data-select="1">Kaspi</li>
+                                                <li data-select="1">Kaspi</li>
+                                                <li data-select="1">Kaspi</li>
+                                                <li data-select="1">Kaspi</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__section " id="order">
+                            <p class="booking__subtitle">О заказе</p>
+                            <div class="booking__subsection booking__widesection">
+
+                                <div class="booking__item booking__item-select booking__item-about">
+                                    <p>Локации</p>
+                                    <div data-select="1" class="custom-select">
+                                        <p data-title="5" data-select="1" class="custom-select-title">Выберите оператора <img data-select="1" src="/app/icns/arrow-down.svg" alt=""></p>
+                                        <div data-select="1" class="custom-select-dropdown not-see" >
+                                            <ul data-select="1" class="custom-select-list">
+                                                <li data-select="1">Меруерт</li>
+                                                <li data-select="1">Алишер</li>
+                                                <li data-select="1">Станислав</li>
+                                                <li data-select="1">Артем</li>
+                                                <li data-select="1">Жанна</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="booking__item-flexible" id="standart">
+                                    <div class="booking__item booking__item-about">
+                                        <label for="">Повод</label>
+                                        <input type="text" placeholder="Введите данные">
+                                    </div>
+                                    <div class="booking__item booking__item-select booking__item-about booking__item-aboutsecond">
+                                        <!-- <select>
+                                            <option selected disabled hidden>Выберите статус брони</option>
+                                            <option value="2">1</option>
+                                            <option value="3">2</option>
+                                            <option value="4">3</option>
+                                            <option value="5">4</option>
+                                        </select> -->
+                                        <div data-select="1" class="custom-select">
+                                            <p data-title="4" data-select="1" class="custom-select-title">Выберите локацию <img data-select="1" src="/app/icns/arrow-down.svg" alt=""></p>
+                                            <div data-select="1" class="custom-select-dropdown not-see" >
+                                                <ul data-select="1" class="custom-select-list custom-select-points">
+                                                    <li data-select="1" class="custom-select-item">Sunrise Бухта</li>
+                                                    <li data-select="1" class="custom-select-item">Sunrise Песчаный</li>
+                                                    <li data-select="1" class="custom-select-item">Sunrise Рахманы</li>
+                                                    <li data-select="1" class="custom-select-item">Sunrise Скалистый</li>
+                                                    <li data-select="1" class="custom-select-item">Sunrise ГЭС</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__section">
+                            <button class="booking__action">Сохранить</button>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="booking__changeble not-seeU">
+                    <div class="booking__section booking__section-price">
+                        <p class="booking__subtitle">Общий счет</p>
+                        <div class="booking__subsection booking__subsection-check">
+                            <div class="booking__item booking__item-check">
+                                <p>Места </p>
+                                <p>150 000 тг.</p>
+                            </div>
+                            <div class="booking__item booking__item-check">
+                                <p>Доп. места </p>
+                                <p>100 000 тг. </p>
+                            </div>
+                            <div class="booking__item booking__item-check">
+                                <p>Банкетные </p>
+                                <p>5 000 тг. </p>
+                            </div>
+                            <div class="booking__item booking__item-check">
+                                <p>Доп. услуги </p>
+                                <p>5 000 тг. </p>
+                            </div>
+                            <div class="booking__item booking__item-check">
+                                <p>Питание </p>
+                                <p>50 000 тг. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking__section">
+                        <div class="booking__subsection  booking__subsection-check">
+                            <div class="booking__item booking__item-price">
+                                <p>Итого: 300 000 тг.</p>
+                                <p>Предоплата 200 000 тг. </p>
+                                <p>Остаток 100 000 тг.</p>
+                            </div>
+                            <div class="booking__item booking__item-pricecomment">
+                                <label for="">Комментарий</label>
+                                <input type="text">
+                            </div>
+                            <div class="booking__item booking__item-action">
+                                <button type="button">PDF <img src="/app/icns/pdf-arrow.svg" alt="Стрелка вниз"></button>
+                                <button type="submit">Отправить клиенту</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking__changeble ">
+                    <p class="booking__subtitle">журнал измений</p>
+                    <div class="booking__section booking__section-card">
+                        <div class="booking__subsection booking__subsection-title">
+                            <div class="booking__item booking__item-title">
+                                <p>Дамир</p>
+                            </div>
+                            <div class="booking__item booking__item-title">
+                                <p>25.03.2022</p>
+                                <p>12:30</p>
+                            </div>
+                        </div>
+                        <div class="booking__subsection booking__subsection-journal">
+                            <div class="booking__item booking__item-journal">
+                                <p>Локация:</p>
+                                <p>Скалы</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>Пески</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Контакты:</p>
+                                <p>+7 777 524 77 33</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>8 (7232)54...</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Место для комментария</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking__section booking__section-card">
+                        <div class="booking__subsection booking__subsection-title">
+                            <div class="booking__item booking__item-title">
+                                <p>Дамир</p>
+                            </div>
+                            <div class="booking__item booking__item-title">
+                                <p>25.03.2022</p>
+                                <p>12:30</p>
+                            </div>
+                        </div>
+                        <div class="booking__subsection booking__subsection-journal">
+                            <div class="booking__item booking__item-journal">
+                                <p>Локация:</p>
+                                <p>Скалы</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>Пески</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Контакты:</p>
+                                <p>+7 777 524 77 33</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>8 (7232)54...</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Место для комментария</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking__section booking__section-card">
+                        <div class="booking__subsection booking__subsection-title">
+                            <div class="booking__item booking__item-title">
+                                <p>Дамир</p>
+                            </div>
+                            <div class="booking__item booking__item-title">
+                                <p>25.03.2022</p>
+                                <p>12:30</p>
+                            </div>
+                        </div>
+                        <div class="booking__subsection booking__subsection-journal">
+                            <div class="booking__item booking__item-journal">
+                                <p>Локация:</p>
+                                <p>Скалы</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>Пески</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Контакты:</p>
+                                <p>+7 777 524 77 33</p>
+                                <img src="/app/icns/right-arrow.svg" alt="Стрелка слева направо">
+                                <p>8 (7232)54...</p>
+                            </div>
+                            <div class="booking__item booking__item-journal">
+                                <p>Место для комментария</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+    </div>
+
+
+    <script src="/app/js/script2.js"></script>
+    <script src="/app/js/sidebar.js"></script>
+</body>
+
+</html>

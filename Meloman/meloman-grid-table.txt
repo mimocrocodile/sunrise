@@ -1,0 +1,226 @@
+<div class="list__main">
+                        <div class="list__main-header">
+                            <div><p>№</p></div>
+                            <div class="list__name"><p>ФИО</p></div>
+                            <div><p>Размещение</p></div>
+                            <div><p>Заезд</p></div>
+                            <div><p>Выезд</p></div>
+                            <div><p>Кол.мест</p></div>
+                            <div><p>Доп.места</p></div>
+                            <div><p>Питание</p></div>
+                            <div><p>Доп. услуги</p></div>
+                            <div><p>Предоплата</p></div>
+                            <div><p>Остаток</p></div>
+                            <div><p>Статус</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>1</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>2</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__paid">Оплачен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>3</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__canceled">Отменен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>4</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__request">Заявка</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>5</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>1</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>2</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__paid">Оплачен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>3</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__canceled">Отменен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>4</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__request">Заявка</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>5</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>1</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>2</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__paid">Оплачен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>3</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__canceled">Отменен</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>4</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__request">Заявка</p></div>
+                        </div>
+                        <div class="list__main-item">
+                            <div><p>5</p></div>
+                            <div class="list__customer"><p >Иванов П.С.</p></div>
+                            <div><p>Бухта</p></div>
+                            <div><p>15.05.2022<br><span>10.00</span></p></div>
+                            <div><p>19.05.2022<br><span>15.00</span></p></div>
+                            <div><p>5</p></div>
+                            <div><p>2</p></div>
+                            <div><p>+</p></div>
+                            <div><p>-</p></div>
+                            <div><p><span> 30 000 тг /</span><br>100 000 тг</p></div>
+                            <div><p>70 000 тг</p> </div>
+                            <div><p class="list__bron">Бронь</p></div>
+                        </div>
+                    </div>
